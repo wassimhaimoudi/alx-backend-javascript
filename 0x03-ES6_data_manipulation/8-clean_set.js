@@ -15,5 +15,5 @@ export default function cleanSet(set, startString) {
     }
   }
 
-  console.log(resultString);
+  return resultString;
 }
