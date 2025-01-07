@@ -1,4 +1,4 @@
-const calculateNumber = function (a, b, type) {
+const calculateNumber = function (type, a, b) {
 	if (type === 'SUM') return Math.round(a) + Math.round(b);
 	if (type === 'SUBSTRACT') return Math.round(a) - Math.round(b);
 	if (type === 'DIVIDE') {
